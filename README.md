@@ -1,24 +1,21 @@
-# custom-ui-library
-
-## Project setup
-```
-npm install
+## Install
+```shell
+npm install custom-ui-library
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Quick Start
+``` javascript
+import Vue from 'vue'
+import LinaElement from 'element-ui'
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Vue.use(LinaElement)
 
-### Lints and fixes files
-```
-npm run lint
-```
+// or
+import {
+  Radio,
+  Button
+  // ...
+} from 'element-ui'
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Vue.component(Radio.name, Radio)
+Vue.component(Button.name, Button)
