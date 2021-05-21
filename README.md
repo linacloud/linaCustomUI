@@ -1,6 +1,6 @@
 ## Install
 ```shell
-npm install custom-ui-library
+npm install ui-linatu
 ```
 
 ## Quick Start
