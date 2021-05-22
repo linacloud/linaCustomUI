@@ -1,13 +1,13 @@
 {
   "name": "custom-ui-library",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "lib": "vue-cli-service build --target lib  packages/index.js",
-    "main":"dist/custom-ui-library.umd.min"
+    "main": "dist/custom-ui-library.umd.min"
   },
   "dependencies": {
     "core-js": "^3.6.5",
