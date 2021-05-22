@@ -3,12 +3,13 @@
   "version": "0.1.7",
   "private": false,
   "repository": "git@github.com:linacloud/linaCustomUI.git",
+  "main": "dist/custom-ui-library.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "lib": "vue-cli-service build --target lib  packages/index.js",
-    "main": "dist/custom-ui-library.umd.min.js"
+ 
   },
   "dependencies": {
     "core-js": "^3.6.5",
