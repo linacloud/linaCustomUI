@@ -2,6 +2,7 @@
   "name": "custom-ui-library",
   "version": "0.1.6",
   "private": false,
+  "repository":"git@github.com:linacloud/linaCustomUI.git",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
