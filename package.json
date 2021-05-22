@@ -2,7 +2,6 @@
   "name": "custom-ui-library",
   "version": "0.1.7",
   "private": false,
-  "repository": "git@github.com:linacloud/linaCustomUI.git",
   "main": "dist/custom-ui-library.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
